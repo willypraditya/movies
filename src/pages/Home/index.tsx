@@ -35,7 +35,6 @@ const Home: React.FC = (): ReactElement => {
                     <StyledInput
                         placeholder="Search by Movie Title..."
                         onChange={(e) => {
-                            console.log(e.target.value)
                             setSearchQuery(e.target.value)
                         }}
                     />
